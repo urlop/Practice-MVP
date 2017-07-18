@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/small_margin"
+    android:paddingTop="@dimen/small_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="@dimen/all_row_image_wight"
+            android:layout_height="@dimen/all_row_image_heigth"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="@dimen/all_row_image_wight"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:gravity="center_horizontal"
+            android:text="Character Name"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_margin"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_weight="1"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo posuere fermentum. Nam pulvinar eu eros eu scelerisque. Donec sit amet cursus felis. Etiam in velit accumsan, ultricies ligula eu, elementum lectus. Nam et lectus porta, blandit velit dictum, maximus purus. Integer quis venenatis risus, eget consectetur felis. Sed pellentesque nisl nec arcu fermentum, vitae imperdiet orci laoreet. Donec sodales sem et faucibus pharetra. Curabitur vel mi a neque bibendum mattis. Cras iaculis, tortor finibus congue sollicitudin, sem nulla aliquam odio, ut ultricies ante justo non lectus. Nam in dui iaculis, mollis felis at, vestibulum mauris. Donec ut felis imperdiet erat sagittis finibus." />
+
+    <ImageView
+        android:id="@+id/iv_favorite"
+        android:layout_width="@dimen/all_star_size"
+        android:layout_height="@dimen/all_star_size"
+        android:src="@drawable/ic_action_star_10" />
+</LinearLayout>

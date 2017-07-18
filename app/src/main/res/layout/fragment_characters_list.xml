@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cjj.MaterialRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refresh"
+    android:name="com.example.android0128.trainingmvp.presentation.getCharacters.callbacks.CharactersFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:isLoadMore="true"
+    tools:context="com.example.android0128.trainingmvp.presentation.getCharacters.CharactersFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnSpan="@drawable/side_nav_bar"
+        android:clipToPadding="false"
+        android:paddingEnd="@dimen/all_list_padding"
+        android:paddingStart="@dimen/all_list_padding"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/row_characters" />
+</com.cjj.MaterialRefreshLayout>
+

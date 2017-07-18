@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/all_row_image_container_wight"
+        android:layout_height="@dimen/all_row_image_container_heigth">
+
+        <ImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="@dimen/all_row_image_wight"
+            android:layout_height="@dimen/all_row_image_heigth"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/iv_favorite"
+            android:layout_width="@dimen/all_star_size"
+            android:layout_height="@dimen/all_star_size"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_action_star_10"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:gravity="center"
+        android:text="Character Name"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>
