@@ -11,9 +11,6 @@ import com.example.android0128.trainingmvp.presentation.models.mappers.EventMapp
 import io.realm.Realm;
 import io.realm.RealmResults;
 
-/**
- * Created by RubyMobile-1 on 25/01/2017.
- */
 
 public class EventLocalDataSource implements EventsDataSource {
 

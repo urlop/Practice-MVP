@@ -5,9 +5,6 @@ import java.util.List;
 import io.realm.RealmList;
 import io.realm.RealmObject;
 
-/**
- * Created by android0128 on 2/10/17.
- */
 
 public class Options extends RealmObject {
     RealmList<Item> items;

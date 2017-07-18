@@ -4,7 +4,6 @@ import android.support.annotation.NonNull;
 
 import com.example.android0128.trainingmvp.MvpApp;
 import com.example.android0128.trainingmvp.data.callbacks.CharactersDataSource;
-import com.example.android0128.trainingmvp.data.network.models.CharactersResponse;
 import com.example.android0128.trainingmvp.presentation.models.Character;
 import com.example.android0128.trainingmvp.presentation.models.mappers.CharacterMapper;
 import com.example.android0128.trainingmvp.utils.Constants;
@@ -14,13 +13,7 @@ import java.util.Date;
 import java.util.List;
 
 import io.reactivex.Observable;
-import io.reactivex.ObservableSource;
-import io.reactivex.Single;
-import io.reactivex.functions.Function;
 
-/**
- * Created by RubyMobile-1 on 23/01/2017.
- */
 
 public class CharactersRestDataSource implements CharactersDataSource {
 

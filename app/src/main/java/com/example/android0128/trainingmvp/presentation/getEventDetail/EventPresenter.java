@@ -7,9 +7,6 @@ import com.example.android0128.trainingmvp.presentation.models.Event;
 
 import java.util.ArrayList;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class EventPresenter implements GetEventsDataResponse, GetEventDetailContract.UserActionsListener {
 

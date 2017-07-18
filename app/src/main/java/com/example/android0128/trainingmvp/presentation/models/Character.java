@@ -1,13 +1,8 @@
 package com.example.android0128.trainingmvp.presentation.models;
 
-import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class Character implements Serializable {
     int id;

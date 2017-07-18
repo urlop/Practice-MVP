@@ -3,9 +3,6 @@ package com.example.android0128.trainingmvp.data.db.models;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class EventDB extends RealmObject {
     @PrimaryKey

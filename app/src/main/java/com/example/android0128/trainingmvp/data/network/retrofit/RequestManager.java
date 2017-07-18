@@ -20,9 +20,6 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by RubyMobile-1 on 26/12/2016.
- */
 
 public class RequestManager {
 
@@ -39,7 +36,7 @@ public class RequestManager {
         defaultRequestManager = retrofit.create(Services.class);
     }
 
-    public Services getWebServices(){
+    public Services getWebServices() {
         return defaultRequestManager;
     }
 

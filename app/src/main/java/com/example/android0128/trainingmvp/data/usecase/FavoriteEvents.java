@@ -8,9 +8,6 @@ import com.example.android0128.trainingmvp.presentation.models.Event;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ruby on 08/02/2017.
- */
 
 public class FavoriteEvents implements EventsUseCaseCallback {
 
@@ -25,9 +22,11 @@ public class FavoriteEvents implements EventsUseCaseCallback {
     public void saveEvent(Event event) {
         eventsRepositoryCallback.saveEvent(event);
     }
+
     public boolean isEventSaved(int id) {
         return eventsRepositoryCallback.isEventSaved(id);
     }
+
     public void deleteEvent(int id) {
         eventsRepositoryCallback.deleteEvent(id);
     }

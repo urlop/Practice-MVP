@@ -2,12 +2,8 @@ package com.example.android0128.trainingmvp.presentation.getCharacters.callbacks
 
 import com.example.android0128.trainingmvp.presentation.models.Character;
 
-import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public interface GetCharactersContract {
     interface View {

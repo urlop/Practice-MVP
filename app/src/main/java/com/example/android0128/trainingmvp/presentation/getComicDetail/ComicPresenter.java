@@ -7,9 +7,6 @@ import com.example.android0128.trainingmvp.presentation.models.Comic;
 
 import java.util.ArrayList;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class ComicPresenter implements GetComicsDataResponse, GetComicDetailContract.UserActionsListener {
 

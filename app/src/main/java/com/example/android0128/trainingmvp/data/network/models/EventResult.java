@@ -4,9 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class EventResult {
     @SerializedName("id")
@@ -21,7 +18,7 @@ public class EventResult {
     public EventResult() {
     }
 
-    public static class Thumbnail extends GeneralThumbnail{
+    public static class Thumbnail extends GeneralThumbnail {
         public Thumbnail() {
         }
     }
@@ -32,7 +29,7 @@ public class EventResult {
         public Options() {
         }
 
-        public static class Item extends GeneralItem{
+        public static class Item extends GeneralItem {
             //String resourceURI; //"http://gateway.marvel.com/v1/public/creators/2707"
             //String name; //"Jeff Albrecht"
             String role; //"inker"

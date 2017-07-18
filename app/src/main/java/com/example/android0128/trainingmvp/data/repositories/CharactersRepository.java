@@ -3,25 +3,15 @@ package com.example.android0128.trainingmvp.data.repositories;
 import com.example.android0128.trainingmvp.data.callbacks.CharactersDataSource;
 import com.example.android0128.trainingmvp.data.db.CharacterLocalDataSource;
 import com.example.android0128.trainingmvp.data.network.CharactersRestDataSource;
-import com.example.android0128.trainingmvp.data.network.models.CharactersResponse;
 import com.example.android0128.trainingmvp.data.repositories.callbacks.CharactersRepositoryCallback;
-import com.example.android0128.trainingmvp.data.usecase.callbacks.CharactersUseCaseCallback;
 import com.example.android0128.trainingmvp.presentation.models.Character;
-import com.example.android0128.trainingmvp.presentation.models.mappers.CharacterMapper;
 
 import java.util.List;
 
 import io.reactivex.Observable;
-import io.reactivex.Single;
-import io.reactivex.SingleSource;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.BiFunction;
-import io.reactivex.functions.Function;
-import kotlin.jvm.functions.Function1;
 
-/**
- * Created by RubyMobile-1 on 23/01/2017.
- */
 
 public class CharactersRepository implements CharactersRepositoryCallback {
 
@@ -29,7 +19,7 @@ public class CharactersRepository implements CharactersRepositoryCallback {
     private CharactersDataSource charactersRestDataSource;
     //private CharactersUseCaseCallback charactersUseCaseCallback;
 
-    public CharactersRepository(){//CharactersUseCaseCallback charactersUseCaseCallback) {
+    public CharactersRepository() {//CharactersUseCaseCallback charactersUseCaseCallback) {
         //this.charactersUseCaseCallback = charactersUseCaseCallback;
         this.charactersLocalDataSource = new CharacterLocalDataSource();
         this.charactersRestDataSource = new CharactersRestDataSource();

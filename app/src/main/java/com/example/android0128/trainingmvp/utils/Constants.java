@@ -1,8 +1,5 @@
 package com.example.android0128.trainingmvp.utils;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public interface Constants {
     String API_KEY = "efcb8d31f5ea78d75d02d55ed49db6d8";

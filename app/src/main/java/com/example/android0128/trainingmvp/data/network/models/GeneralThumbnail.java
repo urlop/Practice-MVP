@@ -1,8 +1,5 @@
 package com.example.android0128.trainingmvp.data.network.models;
 
-/**
- * Created by Ruby on 11/02/2017.
- */
 
 public class GeneralThumbnail {
     String path; //"http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"

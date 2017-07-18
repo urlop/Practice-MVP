@@ -1,14 +1,8 @@
 package com.example.android0128.trainingmvp.data.db.models;
 
-import java.util.List;
-
 import io.realm.RealmObject;
-import io.realm.annotations.Ignore;
 import io.realm.annotations.PrimaryKey;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class CharacterDB extends RealmObject {
     @PrimaryKey

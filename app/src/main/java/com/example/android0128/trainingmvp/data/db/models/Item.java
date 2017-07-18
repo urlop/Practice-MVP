@@ -2,9 +2,6 @@ package com.example.android0128.trainingmvp.data.db.models;
 
 import io.realm.RealmObject;
 
-/**
- * Created by android0128 on 2/10/17.
- */
 
 public class Item extends RealmObject {
     String resourceURI; //http://gateway.marvel.com/v1/public/comics/21366

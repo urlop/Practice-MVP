@@ -15,9 +15,6 @@ import dagger.Component;
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
-/**
- * Created by RubyMobile-1 on 2/01/2017.
- */
 
 public class MvpApp extends Application {
 

@@ -8,9 +8,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
-/**
- * Created by android0128 on 2/3/17.
- */
 
 public class Utils {
 
@@ -40,17 +37,17 @@ public class Utils {
     }
 
     //Get Lists
-    public static String getListTextCharacter(List<Character.Options.Item> listItems){
+    public static String getListTextCharacter(List<Character.Options.Item> listItems) {
         String result = "";
-        for (Character.Options.Item item : listItems){
-            result += "-" + item.getName() + "\n" ;
+        for (Character.Options.Item item : listItems) {
+            result += "-" + item.getName() + "\n";
         }
         return result;
     }
 
-    public static String getListTextComic(List<Comic.Options.Item> listItems){
+    public static String getListTextComic(List<Comic.Options.Item> listItems) {
         String result = "";
-        for (Comic.Options.Item item : listItems){
+        for (Comic.Options.Item item : listItems) {
             result += "-" + item.getName();
             if (item.getRole() != null) {
                 result += "(" + item.getRole() + ")";
@@ -60,9 +57,9 @@ public class Utils {
         return result;
     }
 
-    public static String getListTextEvent(List<Event.Options.Item> listItems){
+    public static String getListTextEvent(List<Event.Options.Item> listItems) {
         String result = "";
-        for (Event.Options.Item item : listItems){
+        for (Event.Options.Item item : listItems) {
             result += "-" + item.getName();
             if (item.getRole() != null) {
                 result += "(" + item.getRole() + ")";
@@ -74,13 +71,15 @@ public class Utils {
     //END Get Lists
 
     //Get Image url
-    public static String getCharacterImagePath(Character model){
+    public static String getCharacterImagePath(Character model) {
         return model.getThumbnail().getPath() + "." + model.getThumbnail().getExtension();
     }
-    public static String getComicImagePath(Comic model){
+
+    public static String getComicImagePath(Comic model) {
         return model.getThumbnail().getPath() + "." + model.getThumbnail().getExtension();
     }
-    public static String getEventImagePath(Event model){
+
+    public static String getEventImagePath(Event model) {
         return model.getThumbnail().getPath() + "." + model.getThumbnail().getExtension();
     }
     //END Get Image url

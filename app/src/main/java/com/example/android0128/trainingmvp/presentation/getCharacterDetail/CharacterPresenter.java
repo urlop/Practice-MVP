@@ -2,14 +2,10 @@ package com.example.android0128.trainingmvp.presentation.getCharacterDetail;
 
 import com.example.android0128.trainingmvp.data.usecase.FavoriteCharacters;
 import com.example.android0128.trainingmvp.presentation.getCharacterDetail.callbacks.GetCharacterDetailContract;
-import com.example.android0128.trainingmvp.presentation.getCharacters.callbacks.GetCharactersDataResponse;
 import com.example.android0128.trainingmvp.presentation.models.Character;
 
 import java.util.ArrayList;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class CharacterPresenter implements GetCharacterDetailContract.UserActionsListener { //GetCharactersDataResponse
 

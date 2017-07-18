@@ -6,14 +6,10 @@ import com.example.android0128.trainingmvp.data.network.models.EventsResponse;
 import com.example.android0128.trainingmvp.utils.Constants;
 
 import io.reactivex.Observable;
-import io.reactivex.Single;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public interface Services {
     @GET(Constants.CHARACTERS)
@@ -32,5 +28,5 @@ public interface Services {
     //RxJava
     @GET(Constants.CHARACTERS)
     Observable<CharactersResponse> getCharactersRx(@Query("ts") long timestamp, @Query("apikey") String apikey, @Query("hash") String hash,
-                                             @Query("limit") long limit, @Query("offset") long offset);
+                                                   @Query("limit") long limit, @Query("offset") long offset);
 }

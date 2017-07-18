@@ -16,9 +16,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * Created by RubyMobile-1 on 23/01/2017.
- */
 
 public class ComicsRestDataSource implements ComicsDataSource {
 

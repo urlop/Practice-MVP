@@ -1,24 +1,18 @@
 package com.example.android0128.trainingmvp.data.db;
 
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 
 import com.example.android0128.trainingmvp.data.callbacks.CharactersDataSource;
 import com.example.android0128.trainingmvp.data.db.models.CharacterDB;
-import com.example.android0128.trainingmvp.data.network.models.CharactersResponse;
 import com.example.android0128.trainingmvp.presentation.models.Character;
 import com.example.android0128.trainingmvp.presentation.models.mappers.CharacterMapper;
 
 import java.util.List;
 
 import io.reactivex.Observable;
-import io.reactivex.Single;
 import io.realm.Realm;
 import io.realm.RealmResults;
 
-/**
- * Created by RubyMobile-1 on 25/01/2017.
- */
 
 public class CharacterLocalDataSource implements CharactersDataSource {
 

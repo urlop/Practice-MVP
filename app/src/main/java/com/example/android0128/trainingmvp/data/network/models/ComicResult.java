@@ -1,13 +1,9 @@
 package com.example.android0128.trainingmvp.data.network.models;
 
-import com.example.android0128.trainingmvp.presentation.models.Character;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * Created by android0128 on 2/2/17.
- */
 
 public class ComicResult {
     @SerializedName("id")

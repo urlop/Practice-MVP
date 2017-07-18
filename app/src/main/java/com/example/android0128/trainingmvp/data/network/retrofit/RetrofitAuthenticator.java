@@ -9,9 +9,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.Route;
 
-/**
- * Created by RubyMobile-1 on 26/12/2016.
- */
 
 /**
  * Just for example. NOT USED.

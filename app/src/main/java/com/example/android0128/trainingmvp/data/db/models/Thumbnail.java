@@ -2,9 +2,6 @@ package com.example.android0128.trainingmvp.data.db.models;
 
 import io.realm.RealmObject;
 
-/**
- * Created by android0128 on 2/10/17.
- */
 
 public class Thumbnail extends RealmObject {
     String path; //"http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"
